@@ -1,0 +1,14 @@
+<h1>More information about <%= @student.name %> </h1>
+
+<%= button_to "Edit this student", edit_student_path(@student), method: :get %>
+
+<p>Name: <%= @student.name %> </p>
+<p>Mod: <%= @student.mod %> </p>
+
+<h1>Ducks Owned by This Student</h1>
+<% @student.ducks.each do |duck| %>
+
+  <%= duck.name %>
+  <br>
+
+<% end %>

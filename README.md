@@ -8,20 +8,28 @@ Every rubber `duck` should be created with a `name` and a `description` and ever
 
 With this website, a user should be:
 
+# Done
 * Able to see a list of all the students
 
+# Done
 * Able to see a single student and all the ducks owned by that student
 
+# Done
 * Able to log a new student (and make sure that their name is not blank/mod is between 1 and 5)
 
+# Done
 * Able to edit a student's name (and make sure that their name is not blank/mod is between 1 and 5)
 
+# Done
 * Able to see a list of all the ducks
 
+# Done
 * Able to see a single duck and see all its details
 
+# Done
 * Able to edit a duck and its details
 
+# Done
 * Able to create a new duck with an association to a student (and make sure that their name and type are not blank)
 
 Some of the models and resources have already been provided for you. Make the necessary edits and alterations to make the website function as expected.
